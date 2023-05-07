@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>OKTEN JavaScript Final Project</title>
+
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="../styles/welcome.css">
+
+</head>
+<body>
+
+<div class="welcome" id="wel">
+    <h1 class="main-text neonText lineUp" id="h1">
+        OKTEN: JAVASCRIPT FINAL PROJECT
+    </h1>
+    <h3 class="second-text neonText lineUp" id="h3"> BY SAMOKHVAL STEFAN</h3>
+</div>
+<div class="btn" type="button" id="btn-div">
+    <a href="index.html" onclick="url=this.href;setTimeout('location.href=url',2000);this.href='javascript:void(0)';"><button class="glow-on-hover button-text lineUp center" id="btn">Main Page</button></a>
+</div>
+
+<div>
+    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+         viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+            <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="parallax">
+            <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+            <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(0,0,0,0.5)" />
+            <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+            <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+        </g>
+    </svg>
+</div>
+
+<script src="../scripts/welcome.js"></script>
+
+</body>
+</html>

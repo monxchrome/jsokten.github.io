@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Post Details</title>
+
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="../styles/post-details.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=B612:wght@400;700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/d4879b1e1f.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+</head>
+<body>
+
+<header>
+    <div class="header lineUp" id="header">
+        <div class="logo">
+            <h1 class="logo-text neonText" id="main">
+                <a href="index.html" onclick="url=this.href;setTimeout('location.href=url',2000);this.href='javascript:void(0)';">OKTEN</a>
+            </h1>
+        </div>
+        <div class="menu dropdown">
+            <i class="fa-solid fa-bars glow"></i>
+            <div class="dropdown-content lineUp">
+                <p class="hover-text neonText lineUp" id="dropdown2">
+                    <a href="posts.html" onclick="url=this.href;setTimeout('location.href=url',2000);this.href='javascript:void(0)';">POSTS</a>
+                </p>
+                <p class="hover-text neonText lineUp" id="dropdown3">
+                    <a href="index.html" onclick="url=this.href;setTimeout('location.href=url',2000);this.href='javascript:void(0)';">USERS LIST</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div id="father" class="father">
+    <a href="" id="link-a" class="link-a">
+        <div class="user lineUp glow-on-hover" id="user"></div>
+    </a>
+</div>
+
+<div class="posts lineUp" id="posts"></div>
+
+<div class="comments lineUp" id="comments">
+    <h4 class="h4">Comments:</h4>
+</div>
+
+<div id="particles-js"></div>
+
+<script src="../scripts/post-details.js"></script>
+
+</body>
+</html>
